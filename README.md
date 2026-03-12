@@ -5,4 +5,4 @@ a cheap clone of hexdump. practically easy to use
 `make`
 
 # usage
-`./chexdump [bin`
+`./chexdump [bin]`
