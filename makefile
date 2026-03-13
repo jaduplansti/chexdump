@@ -1,8 +1,8 @@
-$CC = gcc
-$CFLAGS = -W
+CC = gcc
+CFLAGS = -Wall
 
 chexdump: main.c
-	${CC} ${CFLAGS} -o $@ $^
+	$(CC) $(CFLAGS) -o $@ $^
 
 clean:
 	rm chexdump
